@@ -1,0 +1,36 @@
+main {
+    width: 800px;
+    display: inline-block; 
+    margin-left: calc(50% - 400px); 
+    margin-top: 10%;
+}
+header {
+    float: left; 
+    width: 100%;
+}
+div {
+    display: inline-block; 
+    float: left; 
+}
+a {
+    padding-right: 20px;
+    text-decoration: none;
+}
+p {
+    margin-left: 15%; 
+    font-size: 48px;
+    font-weight: bold; 
+    margin-top: 20%;
+}
+button {
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 16px;
+    cursor: pointer;
+
+}

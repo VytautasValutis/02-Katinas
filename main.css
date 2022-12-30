@@ -9,15 +9,17 @@ header {
     margin-top: 50px;
     display: inline-block;
 }
-img:first-child {
+img {
+    background-color: bisque;
+    display: inline-block;
+    float: left;
+}
+#img-mini {
     width: 100px;
     height: 50px;
     object-fit: contain;
     object-position: left;
-    background-color: bisque;
-    display: inline-block;
     margin-left: 50px;
-    float: left;
 }
 nav {
     background-color: bisque;
@@ -38,4 +40,40 @@ main {
     width: 800px;
     margin-top: 70px;
     margin-left: calc(50% - 400px);
+    display: inline-block;
+}
+div{
+    background-color: rgb(119, 234, 119);
+    display: inline-block;
+    margin-left: 25px;
+}
+#div-kaire {
+    width: 320px;
+    float: left;
+}
+h1 {
+    font-size: 72px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    background-color: rgb(185, 177, 177);
+}
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: -60px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 72px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #70BBE3;
+    font-family: courier;
+}
+#img-maxi {
+    height:  300px;
+    margin-right: 85px;
+    float: right;
 }

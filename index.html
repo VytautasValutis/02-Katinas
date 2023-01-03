@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -16,37 +16,27 @@
     <title>Katinas</title>
 </head>
 <body>
-    <header>
-        <img src="./mikro.png" alt="logo paveiksliukas" id="img-mini">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
+    <header class="container">
+        <img class="logo" src="./img/mikro.png" alt="logo paveiksliukas" id="img-mini">
+        <nav class="top-menu">
+            <a class="link" href="#">Home</a>
+            <a class="link" href="#">Products</a>
+            <a class="link" href="#">About Us</a>
+            <a class="link" href="#">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <div id="div-kaire">
-            <h1>
-                404
-            </h1>
-            <h2>
-                Oops!
-            </h2>
-            <h3>
-                ___
-            </h3>
-            <p>
+    <main class="container">
+        <div class="left-column">
+            <h1 class="large404">404</h1>
+            <h2 class="large-txt">Oops!</h2>
+            <h3 class="line">___</h3>
+            <p class="main-txt">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro adipisci libero tenetur!
             </p>
-            <a>
-                Home
-            </a>
-            <a>
-                Back
-            </a>
+            <a class="button" href="#" target="_blank">Home</a>
+            <a class="button" href="#" target="_blank">Back</a>
         </div>
-        <img src="./katinas-mini.png" alt="Ddelis katino paveiksliukas" id="img-maxi">            
+        <img class="big-cat" src="./img/katinas-mini.png" alt="Ddelis katino paveiksliukas">            
     </main>
 </body>
 </html>

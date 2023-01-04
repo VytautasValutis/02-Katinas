@@ -37,11 +37,10 @@ body {
     text-decoration: underline;
     color: red;
 }
-div{
+.left-column {
     display: inline-block;
     margin-left: 25px;
-}
-.left-column {
+    margin-top: 15px;
     width: 320px;
     float: left;
 }
@@ -55,15 +54,14 @@ div{
     font-size: 48px;
     font-weight: bold;
     margin-top: 0;
-    margin-bottom: -60px;
 }
-.line {
-    font-weight: bold;
-    font-size: 72px;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #70BBE3;
-    font-family: courier;
+.large-txt::after {
+    width: 120px;
+    height: 6px;
+    content: '';
+    display: block;
+    margin-top: 15px;
+    background-color: #70BBE3;
 }
 .main-txt {
     font-size: 12px;
